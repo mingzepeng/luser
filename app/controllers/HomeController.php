@@ -17,8 +17,8 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
-		$passports = Passport::all();
-		return View::make('passports')->with('passports',$passports);
+		//$passports = Passport::all();
+		return View::make('hello');//->with('passports',$passports);
 	}
 
 }
